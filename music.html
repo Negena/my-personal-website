@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Кодировка веб-страницы -->
+    <meta charset="utf-8">
+    <!-- Настройка viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Подключаем Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="css/style.css" />
+    <link rel="stylesheet" href="css/pictures"/>
+</head>
+<body>
+
+    <!-- Контент страницы -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="#">NEGENA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="role">Role Of Literature</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Reading
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item " href="reading">Library</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Music<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+
+  </nav>
+<div class="music">
+<h3><center><i class="fa fa-music"></i> Music</center></h3>
+</div>
+  <h4> <center>Genres</center></h4>
+
+
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-dark" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Pop Music/Groups/Singers
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+  <div class="card">
+        <div id="list-example" class="list-group" >
+
+  <a class="list-group-item list-group-item-action text-white bg-dark" href="#list-item-1">5 Seconds Of Summer</a>
+  <ul class="list-group Dropdown-menu ">
+ <li class="list-group-item"> <a class="text-dark" href="./audio/good_girls.mp3"  download="5 Seconds Of Summer-Good Girls" >5 Seconds Of Summer-Good Girls </a></li>
+ <li class="list-group-item"><a class="text-dark" href="./audio/try_hard.mp3" download="5 Seconds Of Summer-Try Hard"> 5 Seconds Of Summer-Try Hard</a></li>
+ <li class="list-group-item"><a  class="text-dark"href="./audio/heartbreak_girl.mp3"download="5 Seconds Of Summer-Heartbreak Girl"> 5 Seconds Of Summer-Heartbreak Girl</a></li>
+</ul>
+
+  <a class="list-group-item list-group-item-action text-white bg-dark" href="#list-item-2">Taylor Swift</a>
+  <ul class="list-group Dropdown-menu">
+ <li class="list-group-item"><a  class="text-dark" href="./audio/style.mp3" download="Taylor Swift-Style">Taylor Swift-Style</a></li>
+ <li class="list-group-item"><a class="text-dark" href="./audio/woods.mp3" download="Taylor Swift-Out Of The Woods"> Taylor Swift-Out Of The Woods</a></li>
+ <li class="list-group-item"><a class="text-dark" href="./audio/places.mp3"download="Taylor Swift-I Know Places"> Taylor Swift-I Know Places</a></li>
+</ul>
+
+
+
+  <a class="list-group-item list-group-item-action text-white bg-dark" href="#list-item-3">Fifty Shades Of Grey</a>
+  <ul class="list-group Dropdown-menu">
+ <li class="list-group-item"><a class="text-dark" href="./audio/never_tear_us_apart.mp3" download="never tear us a part">Never Tear Us A Part</a></li>
+ <li class="list-group-item"><a class="text-dark" href="./audio/for_you.mp3" download="For You">For You</a></li>
+ <li class="list-group-item"><a class="text-dark" href="./audio/love_me_like_you_do.mp3"download="Love Me Like You Do"> Love Me Like You Do</a></li>
+</ul>
+
+  <a class="list-group-item list-group-item-action text-white bg-dark" href="#list-item-4">The Weeknd</a>
+  <ul class="list-group Dropdown-menu">
+ <li class="list-group-item"><a class="text-dark" href="./audio/hills.mp3" download="The Weeknd-The Hills">The Weeknd-The Hills</a></li>
+ <li class="list-group-item"><a class="text-dark" href="./audio/dark_times.mp3" download="The Weeknd-Dark Times">The Weeknd-Dark Times</a></li>
+ <li class="list-group-item"><a class="text-dark" href="./audio/in_the_night.mp3"download="The Weeknd-In The Night"> The Weeknd-In The Night</a></li>
+</ul>
+
+</div>
+
+
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-dark collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Rock Music/Groups/Singers
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+
+        <div id="list-example" class="list-group" >
+          <a class="list-group-item list-group-item-action text-white bg-dark" href="#list-item-1">Bob Dylan</a>
+          <ul class="list-group Dropdown-menu ">
+         <li class="list-group-item"><a class="text-dark" href="./audio/thin_man.mp3"  download="bob dylan- ballad of a thin man">Bob Dylan- Ballad Of A Thin Man</a></li>
+         <li class="list-group-item"><a class="text-dark" href="./audio/in_the_wind.mp3" downloa="bob dylan-Blowin In A Wind">Bob Dylan-Blowin In A Wind</a></li>
+         <li class="list-group-item"><a  class="text-dark"href="./audio/desolation.mp3"download="Bob Dylan-Desolation Row"> Bob Dylan-Desolation Row</a></li>
+        </ul>
+
+          <a class="list-group-item list-group-item-action text-white bg-dark" href="#list-item-2">Elton John</a>
+          <ul class="list-group Dropdown-menu">
+         <li class="list-group-item"><a  class="text-dark" href="./audio/oceans_away.mp3" download="Elton John-Oceans Away">Elton John-Oceans Away</a></li>
+         <li class="list-group-item"><a class="text-dark" href="./audio/oscar.mp3" download="Elton John-Oscar Wilde">Elton John-Oscar Wilde</a></li>
+         <li class="list-group-item"><a class="text-dark" href="./audio/waltz.mp3"download="Elton John-The New Fewer Waltz"> Elton John-The New Fewer Waltz</a></li>
+        </ul>
+
+
+
+          <a class="list-group-item list-group-item-action text-white bg-dark" href="#list-item-3">Krewella</a>
+          <ul class="list-group Dropdown-menu">
+         <li class="list-group-item"><a class="text-dark" href="./audio/beggars.mp3" download="Krewella">Krewella-Beggars</a></li>
+         <li class="list-group-item"><a class="text-dark" href="./audio/broken_record.mp3" download="Krewella-Broken Record">Krewella-Broken Record</a></li>
+         <li class="list-group-item"><a class="text-dark" href="./audio/marching_on.mp3"download="Krewella-Marching On"> Krewella-Marching On</a></li>
+        </ul>
+
+          <a class="list-group-item list-group-item-action text-white bg-dark" href="#list-item-4">Guns N' Roses</a>
+          <ul class="list-group Dropdown-menu">
+         <li class="list-group-item"><a class="text-dark" href="./audio/democracy.mp3" download="guns N' Roses-chiniese">Guns N' Roses-chiniese</a></li>
+         <li class="list-group-item"><a class="text-dark" href="./audio/heaven_door.mp3" download="guns N' Roses-knockin' on the heaveans door">Guns N' Roses-Knockin' On The Heavens Door</a></li>
+         <li class="list-group-item"><a class="text-dark" href="./audio/rain.mp3"download="The Weeknd-In The Night"> Guns N' Roses</a></li>
+        </ul>
+</div>
+
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-dark collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Electro Music/Groups/Singers
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+
+        <div id="list-example" class="list-group " >
+  <a class="list-group-item list-group-item-action" href="#list-item-1">Пункт 1</a>
+  <a class="list-group-item list-group-item-action" href="#list-item-2">Item2</a>
+  <a class="list-group-item list-group-item-action" href="#list-item-3">Пункт 3</a>
+  <a class="list-group-item list-group-item-action" href="#list-item-4">Пункт 4</a>
+</div>
+        </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link text-success bg-dark" href="#" tabindex="-1">Previous</a>
+      </li>
+      <li class="page-item "><a class="page-link text-success bg-dark" href="#">1</a></li>
+      <li class="page-item"><a class="page-link text-success bg-dark" href="#">2</a></li>
+      <li class="page-item"><a class="page-link text-success bg-dark" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link text-success bg-dark" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+
+  <hr>
+
+
+
+
+  <footerclass="page-footer font-small blue-grey lighten-5">
+
+    <div style="background-color: #202529;">
+      <div class="container">
+
+        <!-- Grid row-->
+        <div class="row py-4 d-flex align-items-center">
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="text-light ">Get Connected With Us On Social Networks!</h6>
+          </div>
+          <!-- Grid column -->
+          <style media="screen">
+          a {color: #f3eeee;}
+          a:hover {color: #9e9191;}
+          </style>
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+            <!-- Facebook -->
+            <a href="#" class="facebook">
+              <i class="fa fa-facebook"> </i></a>
+            <!-- Twitter -->
+          <a href="https://twitter.com/mniginabonu" class="twitter"><i class="fa fa-twitter"></i></a>
+            <!-- Google +-->
+           <a href="https://www.google.com/webhp?client=firefox-b-e" class="google"><i class="fa fa-google"></i></a>
+            <!--Linkedin -->
+            <a href="https://www.linkedin.cn/in/negena-v-2863b51aa/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <!--Instagram-->
+           <a href="https://www.instagram.com/just_negena/" class="instagram"><i class="fa fa-instagram"></i></a>
+
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row-->
+
+      </div>
+
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+
+      <!-- Grid row -->
+      <div class="row mt-3 ">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+          <!-- Content -->
+          <h6 class="text-light text-uppercase font-weight-bold">Company name</h6>
+          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p class="text-light">Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-light text-uppercase font-weight-bold">Products</h6>
+          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a class="text-light" href="#!">About Us</a>
+          </p>
+          <p>
+            <a class="text-light" href="#!">Privacy Police</a>
+          </p>
+          <p>
+            <a class="text-light" href="#!">Sponsership And Funding</a>
+          </p>
+          <p>
+            <a class="text-light" href="#!">Our Employeers</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-light text-uppercase font-weight-bold">Useful links</h6>
+          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p >
+            <a class="text-light" href="#!">Your Account</a>
+          </p>
+          <p>
+            <a class="text-light" href="#!">Become an Affiliate</a>
+          </p>
+          <p>
+            <a class="text-light" href="#!">Shipping Rates</a>
+          </p>
+          <p>
+            <a class="text-light" href="#!">Help</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-light text-uppercase font-weight-bold">Contact</h6>
+          <hr class="text-light teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p class="text-light">
+            <i class="text-light fa fa-home mr-3"></i> New York, NY 56012, US</p>
+          <p class="text-light">
+            <i class="text-light fa fa-envelope mr-3"></i> justnegena@gmail.com</p>
+          <p class="text-light">
+            <i class="text-light fa fa-phone mr-3"></i> + 998 90 150 20 50</p>
+          <p class="text-light">
+            <i class="text-light fa fa-print mr-3"></i> + 998 90 234 56 89</p>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+
+    <!-- Copyright -->
+
+  <div class="footer-copyright text-center" style="color:#f3eeee;";>&copy; All Rights Reserved</p>
+  </footer>
+  </div>
+  </div>
+    </div>
+
+
+
+
+    <!-- Подключаем jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Подключаем плагин Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <!-- Подключаем Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous" ></script>
+
+</body>
+</html>

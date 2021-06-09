@@ -1,0 +1,35 @@
+
+body{
+  font-family: cursive ;
+
+}
+p{
+  font-family: cursive;
+  font-style: italic;
+}
+h1,h2,h3,h4,h5,h6{
+  font-style: oblique;
+  font-family: cursive;
+}
+
+
+
+.list-group-item
+{
+  overflow:hidden;
+  position: relative;
+  background-color: #c0caba;
+  border: 1px solid #010101;
+}
+
+
+.music{
+  background-color: #777d73;
+}
+
+footer{
+  background-color: #202529;
+  color: #e1e7ec;
+  text-align: center;
+
+}
